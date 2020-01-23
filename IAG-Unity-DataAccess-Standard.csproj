@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>IAG Unity DataAccess</Title>
+    <PackageId>Iag.Unity.DataAccess.Standard.dll</PackageId>
+    <Version>1.0.0.0</Version>
+    <Authors>Steve Lauer</Authors>
+    <Company>IAG Unity, LLC</Company>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Iag.Unity.DataAccess.Standard</RootNamespace>
+    <AssemblyName>Iag.Unity.DataAccess.Standard.dll</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Product>Iag.Unity.DataAccess</Product>
+    <Description />
+    <Copyright>Copyright © 2016-2020</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageDescription>Data Access Library that simplifies data access to a Microsoft SQL server.  Wraps SqlConnection the SqlCommand into a series of objects and methods that provide more straightforward usage.  GetObjects&lt;T&gt;()/GetObject&lt;T&gt;() provides functionality to fill an object via reflection in a lightweight manner.</PackageDescription>
+    <Description>Data Access Library that simplifies data access to a Microsoft SQL server.  Wraps SqlConnection the SqlCommand into a series of objects and methods that provide more straightforward usage.  GetObjects&lt;T&gt;()/GetObject&lt;T&gt;() provides functionality to fill an object via reflection in a lightweight manner.</Description>
+    <PackageTags>C# Data Access SqlCommand SqlConnection Sql StoredProcedure ORM Object-Relational Mapping dotnet .NET Core netstandard</PackageTags>
+    <RepositoryUrl>https://github.com/splauer1us/IAG-Unity-DataAccess-Standard</RepositoryUrl>
+    <PackageReleaseNotes>Ported to .NET Standard 2.0</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+      <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+      <None Include="LICENSE" Pack="true" PackagePath=""/>
+
+  </ItemGroup>
+
+</Project>
