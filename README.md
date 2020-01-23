@@ -1,6 +1,6 @@
 # IAG-Unity-DataAccess
 ## NuGet Package Page
-https://www.nuget.org/packages/Iag.Unity.DataAccess.dll/
+https://www.nuget.org/packages/Iag.Unity.DataAccess.Standard.dll
 
 ## First things first.  Initialize your data library:
 ```c#
