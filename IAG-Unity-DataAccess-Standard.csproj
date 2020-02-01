@@ -12,7 +12,6 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <Product>Iag.Unity.DataAccess</Product>
-    <Description />
     <Copyright>Copyright © 2016-2020</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageDescription>Data Access Library that simplifies data access to a Microsoft SQL server.  Wraps SqlConnection the SqlCommand into a series of objects and methods that provide more straightforward usage.  GetObjects&lt;T&gt;()/GetObject&lt;T&gt;() provides functionality to fill an object via reflection in a lightweight manner.</PackageDescription>
